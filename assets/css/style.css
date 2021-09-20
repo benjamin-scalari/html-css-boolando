@@ -1,0 +1,117 @@
+*{
+	padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+.product-up, .product-down{
+  display: inline-block;
+}
+
+.product-2, .product-5{
+  margin-left: 35px;
+}
+
+.product-3, .product-6{
+  float: right;
+}
+
+.product-4{
+  padding-top: 25px;
+}
+
+.product-6{
+  padding-top: 25px;
+}
+
+.image-size{
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 450px;
+  height: 700px;
+}
+
+.foto-1{
+  background-image: url("../img/1.jpg");
+}
+
+.foto-2{
+  background-image: url("../img/2.jpg");
+}
+
+.foto-3{
+  background-image: url("../img/3.jpg");
+}
+
+.foto-4{
+  background-image: url("../img/4.jpg");
+}
+
+.foto-5{
+  background-image: url("../img/5.jpg");
+}
+
+.foto-6{
+  background-image: url("../img/6.jpg");
+}
+
+.heart{
+  font-size: 25px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  background-color: white;
+  padding: 5px;
+  position: relative;
+  left: 410px;
+  top: 25px;
+}
+
+.info{
+  color: white;
+  font-size: 12.5px;
+  padding: 6px 5px;
+  display: inline-block;
+  position: relative;
+  bottom: 45px;
+}
+
+.not-info{
+  padding: 3px;
+}
+
+.discount{
+  width: 40px;
+  height: 25px;
+  background-color: rgb(235, 0, 55);
+}
+
+.sustainability{
+  width: 85px;
+  height: 25px;
+  background-color: rgb(0, 135, 90);
+}
+
+.product-info{
+  position: relative;
+  bottom: 15px;
+}
+
+.brand{,
+  font-size: 15px
+}
+
+.price{
+  color: red;
+}
+
+.old-prize{
+  color: black;
+}
